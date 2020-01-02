@@ -6,7 +6,7 @@
                     <div class="row align-items-center no-gutters">
                         <div class="col-xl-3 col-lg-2">
                             <div class="logo">
-                                <a href="index.html">
+                                <a [routerLink]="['/']">
                                     <img src="../../../../assets/img/logo.png" alt="">
                                 </a>
                             </div>
@@ -15,11 +15,11 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.html">home</a></li>
-                                        <li><a href="Menu.html">Menu</a></li>
+                                        <li><a class="active" [routerLink]="['/']" routerLinkActive="router-link-active" >home</a></li>
+                                        <li><a [routerLink]="['/menu']">Menu</a></li>
                                         <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="about.html">about</a></li>
+                                                <li><a [routerLink]="['/about']">about</a></li>
                                                 <li><a href="elements.html">elements</a></li>
                                             </ul>
                                         </li>

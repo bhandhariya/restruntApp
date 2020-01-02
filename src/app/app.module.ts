@@ -12,6 +12,9 @@ import { HomeDeliciousAreaComponent } from './shared/component/home-delicious-ar
 import { HomeTestimonialAreaComponent } from './shared/component/home-testimonial-area/home-testimonial-area.component';
 import { HomeGalleryAreaComponent } from './shared/component/home-gallery-area/home-gallery-area.component';
 import { HomeReservationAreaComponent } from './shared/component/home-reservation-area/home-reservation-area.component';
+import { MenuComponent } from './menu/menu.component';
+import { MenuOurMenuComponent } from './menu/menu-our-menu/menu-our-menu.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { HomeReservationAreaComponent } from './shared/component/home-reservatio
     HomeDeliciousAreaComponent,
     HomeTestimonialAreaComponent,
     HomeGalleryAreaComponent,
-    HomeReservationAreaComponent
+    HomeReservationAreaComponent,
+    MenuComponent,
+    MenuOurMenuComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
